@@ -1,0 +1,143 @@
+html{
+    scroll-behavior: smooth;
+}
+.nav {
+    
+    height: 90px;
+    padding-top: 40px; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-image: linear-gradient(90deg,#00004d,white);
+}
+.nav ul li{
+    display: inline;
+}
+
+
+
+
+li a {
+    display: inline;
+    margin-top: 40px;
+    margin-left: 30px;
+    height: 50px;
+    font-size:30px;
+    font-style:inherit;
+    font-family:'Courier New', Courier, monospace;
+    color: aliceblue;
+    font-weight: bolder;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: black;
+    box-shadow: 5px 5px 5px 5px black;
+    border: white;
+    border-color: white;
+    border-width: 2px;
+    border-style: double;
+}
+.welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #002266;
+    color: #000033;
+    background-image: linear-gradient(-180deg,#002266,white);
+    
+    
+}
+.welcome-section h1{
+    font-size: 60px;
+    margin-bottom: 2px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    
+    
+    
+}
+    
+.welcome-section p {
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+}
+
+.exper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding-top: 50px;
+
+}
+.exper section{
+    
+    float: left;
+    width: 33%;
+}
+
+.exper {
+    background-color: darkgrey;
+}
+
+.exper label {
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #4d0000;
+}
+
+.exper ul {
+    margin-top: 2px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.sma {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.contact p {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.contact figcaption{
+    margin-left: 20px;
+    height: 20px;
+    width: 30px;
+
+}
+.contact div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1px;
+}
+h2 {
+    padding-top: 10px;
+    font-size: 50px;
+}
+.para {
+    margin-bottom: 5px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.contact figure:hover {
+    transform: rotate(-40deg);
+}
+.contact {
+    padding-top: 45px;
+}
